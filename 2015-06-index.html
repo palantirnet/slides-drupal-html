@@ -280,7 +280,7 @@ print theme('item_list', $vars);
             <h2>It gets complicated quickly</h2>
             <pre><code class="php" data-trim>
 $node = node_load(123);
-theme('node', $node);</code></pre>
+theme('node', array('node' => $node));</code></pre>
             <aside class="notes"><p></p> 
             </aside>
 
@@ -998,7 +998,7 @@ print theme('item_list', $vars);
 <td>
             <pre><code class="php" data-trim>
 $node = node_load(123);
-theme('node', $node);</code></pre>
+theme('node', array('node' => $node));</code></pre>
 </td>
 </tr></table>
             <aside class="notes">
